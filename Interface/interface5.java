@@ -1,9 +1,8 @@
 
-    class A implements inter{
+class A implements inter{
         public void inform(){
             System.out.println("..............");
         }
-    
         public static void main(String[] args) {
             A obj = new A();
             obj.inform();

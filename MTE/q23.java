@@ -6,7 +6,6 @@
 //     }
 //     return true;
 // }
-
 // private static boolean isVowel(char ch) {
 //     return "aeiouAEIOU".indexOf(ch) >= 0;
 // }

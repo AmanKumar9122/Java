@@ -22,7 +22,7 @@ class Demo
 
 public class exception7
 {
-	public static void main(String[] agrs)
+	public static void main(String[] agrs) throws Exception
 	{
 		Demo obj=new Demo();
 		obj.a();

@@ -1,13 +1,13 @@
 import java.io.*;
 import java.util.*;
-public class Assignment1{ 
+public class Assignment1{
   public static void main(String args[]){
     
     int m,n;
     Scanner sc=new Scanner(System.in);
     System.out.print("enter the number of rows=");
     m=sc.nextInt();    
-    System.out.print("enter the number of column=");    
+    System.out.print("enter the number of column="); 
     n=sc.nextInt();
     int arr[][]=new int[m][n];
     

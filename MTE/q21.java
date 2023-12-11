@@ -41,8 +41,8 @@ public class q21 {
     }
 }
 
-//This code demonstrates constructor overloading and method overloading:
-//Constructor overloading: The Parent class has two constructors: a default constructor and a parameterized constructor. This allows you to create Parent objects with or without providing initial values for the name and age fields.
-//Method overloading: The Parent and Child classes both have a printDetails() method. However, the methods have different signatures (the number and types of parameters). This allows you to call the printDetails() method with different arguments depending on whether you are working with a Parent or Child object.
-//The code also demonstrates accessing a parent class constructor in a child class:
-//Accessing parent class constructor: The Child class constructor calls the super(name, age) constructor to initialize the name and age fields from the parent class. This ensures that Child objects have values for these fields, even though the Child constructor does not explicitly assign values to them.
+// //This code demonstrates constructor overloading and method overloading:
+// //Constructor overloading: The Parent class has two constructors: a default constructor and a parameterized constructor. This allows you to create Parent objects with or without providing initial values for the name and age fields.
+// //Method overloading: The Parent and Child classes both have a printDetails() method. However, the methods have different signatures (the number and types of parameters). This allows you to call the printDetails() method with different arguments depending on whether you are working with a Parent or Child object.
+// //The code also demonstrates accessing a parent class constructor in a child class:
+// //Accessing parent class constructor: The Child class constructor calls the super(name, age) constructor to initialize the name and age fields from the parent class. This ensures that Child objects have values for these fields, even though the Child constructor does not explicitly assign values to them.
