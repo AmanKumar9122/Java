@@ -7,7 +7,7 @@ class Animal
     }
     public void age(int x)
     {
-        System.out.println("Animal age is");
+        System.out.println("Animal age is "+ x);
     }
     
 }
@@ -25,6 +25,7 @@ public class Inheritance3
     public static void main(String[] args) 
     {
       Tiger t=new Tiger();
-      t.eat();    
+      t.eat();  
+      t.age(15);  
     }   
 }

@@ -52,7 +52,6 @@ public class q24 {
         obj.method2();
         obj.method3();
         obj.abstractMethod();
-
         Interface1.defaultMethod();
         Interface1.staticMethod();
     }
