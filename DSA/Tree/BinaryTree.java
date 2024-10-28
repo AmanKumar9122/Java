@@ -135,7 +135,9 @@ public class BinaryTree {
             }else if(node==null||subRoot==null|| node.data!=subRoot.data){
                 return false;
             }
-            if(!isIdentical(node.left, subRoot.left)){
+            if(!isIdentical(node.
+            
+            left, subRoot.left)){
                 return false;
             }
             if(!isIdentical(node.right, subRoot.right)){
