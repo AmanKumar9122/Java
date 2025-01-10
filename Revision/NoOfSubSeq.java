@@ -1,5 +1,7 @@
 public class NoOfSubSeq {
     public static int printSubsequencesWithSumK(int index, int[] arr, int n, int k, int currentSum) {
+        //if all elements are positive 
+        //if(k<currentSum) return 0;
         // Base condition: if index reaches the end of the array
         if (index == n) {
             if (currentSum == k) {
