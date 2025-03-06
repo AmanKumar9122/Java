@@ -20,3 +20,7 @@ public class SubArrayProductLessThanK {
         System.out.println(numSubarrayProductLessThanK(nums, k));
     }
 }
+
+// Complexity Analysis:
+// Time Complexity: O(n), where n is the size of the input array.
+// Space Complexity: O(1). We are using only a constant amount of space.
