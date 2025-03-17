@@ -19,7 +19,7 @@
 //     }
 // }
 
-// //sliding window approach
+//sliding window approach
 import java.util.*;
 public class SubArraySumEqualZero {
     public static boolean subArrayExists(int[] arr) {
