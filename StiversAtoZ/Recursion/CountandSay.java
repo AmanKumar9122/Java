@@ -12,32 +12,9 @@
 // Output: "1211"
 
 // approach: use recursion
-// public class CountandSay {
-//     public static String countAndSay(int n) {
-//         if (n == 1) {
-//             return "1";
-//         }
-//         String str = countAndSay(n - 1);
-//         StringBuilder sb = new StringBuilder();
-//         int count = 1;
-//         for (int i = 0; i < str.length(); i++) {
-//             if (i + 1 < str.length() && str.charAt(i) == str.charAt(i + 1)) {
-//                 count++;
-//             } else {
-//                 sb.append(count);
-//                 sb.append(str.charAt(i));
-//                 count = 1;
-//             }
-//         }
-//         return sb.toString();
-//     }
-//     public static void main(String[] args) {
-//         System.out.println(countAndSay(1)); // 1
-//         System.out.println(countAndSay(4)); // 1211
-//     }
-// }
-
-//use two pointer approach
+// use while loop and reduce the time complexity
+// use while loop instead of if else condition
+// time complexity: O(n)
 public class CountandSay {
     public static String countAndSay(int n) {
         if (n == 1) {
@@ -46,26 +23,65 @@ public class CountandSay {
         String str = countAndSay(n - 1);
         StringBuilder sb = new StringBuilder();
         int count = 1;
-        int i = 0;
-        int j = 1;
-        while (j < str.length()) {
-            if (str.charAt(i) == str.charAt(j)) {
+        for (int i = 0; i < str.length(); i++) {
+            while (i + 1 < str.length() && str.charAt(i) == str.charAt(i + 1)) {
                 count++;
-                j++;
-            } else {
+                i++;
+            }
+            while (i + 1 < str.length() && str.charAt(i) != str.charAt(i + 1)) {
                 sb.append(count);
                 sb.append(str.charAt(i));
-                i = j;
-                j++;
                 count = 1;
+                i++;
             }
+            sb.append(count);
+            sb.append(str.charAt(i));
         }
-        sb.append(count);
-        sb.append(str.charAt(i));
         return sb.toString();
     }
+    //time complexity: O(n)
+    //space complexity: O(n)
+    
     public static void main(String[] args) {
         System.out.println(countAndSay(1)); // 1
-        System.out.println(countAndSay(4)); // 1211
+        System.out.println(countAndSay(5)); // 1211
     }
 }
+// time complexity: O(2^n)
+// space complexity: O(2^n)
+
+//use two pointer approach
+// public class CountandSay {
+//     public static String countAndSay(int n) {
+//         if (n == 1) {
+//             return "1";
+//         }
+//         String str = countAndSay(n - 1);
+//         StringBuilder sb = new StringBuilder();
+//         int count = 1;
+//         int i = 0;
+//         int j = 1;
+//         while (j < str.length()) {
+//             if (str.charAt(i) == str.charAt(j)) {
+//                 count++;
+//                 j++;
+//             } else {
+//                 sb.append(count);
+//                 sb.append(str.charAt(i));
+//                 i = j;
+//                 j++;
+//                 count = 1;
+//             }
+//         }
+//         sb.append(count);
+//         sb.append(str.charAt(i));
+//         return sb.toString();
+//     }
+//     public static void main(String[] args) {
+//         System.out.println(countAndSay(1)); // 1
+//         System.out.println(countAndSay(4)); // 1211
+//     }
+// }
+
+//time complexity: O(n)
+//space complexity: O(n)
