@@ -38,9 +38,15 @@ public class KoKoEatingBanana {
     public boolean isValid(int[] piles, int h, int mid){
         int hours = 0;
         for(int i=0;i<piles.length;i++){
-            hours += (piles[i]+mid-1)/mid;
+            hours += piles[i]/mid;
+            if(piles[i]%mid!=0){
+                hours++;
+            }
         }
-        return hours<=h;
+        if(hours>h){
+            return false;
+        }
+        return true;
     }
 
     public int minEatingSpeed(int[] piles, int h) {
