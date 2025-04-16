@@ -2,6 +2,10 @@
 // subarray of size K. 
 public class Q4 {
     public int maxSum(int arr[],int k){
+        if(arr.length<k) {
+            System.out.println("Array size is smaller than k");
+            return -1;
+        }
         int sum = 0;
         for(int i=0;i<k;i++){
             sum+=arr[i];
