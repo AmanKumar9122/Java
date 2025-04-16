@@ -25,7 +25,6 @@ public class lengthOddOrEven {
             System.out.println("The length of the linked list is even.");
         }
     }
-
     public static boolean isLengthOddOrEven(Node head) {
         int count = 0;
         while (head != null) {
@@ -33,6 +32,5 @@ public class lengthOddOrEven {
             head = head.next;
         }
         return count % 2 != 0; // true if odd, false if even
-    } 
-    
+    }
 }
