@@ -1,0 +1,10 @@
+Day - 1
+
+Q1. https://www.hackerrank.com/challenges/candies/problem?isFullScreen=true
+Q2. https://leetcode.com/problems/earliest-possible-day-of-full-bloom/
+Q3. https://leetcode.com/problems/gas-station/
+Q4. https://codeforces.com/problemset/problem/381/A
+Q5. https://cses.fi/alon/task/1629
+Q6. https://leetcode.com/problems/non-overlapping-intervals/description/
+
+

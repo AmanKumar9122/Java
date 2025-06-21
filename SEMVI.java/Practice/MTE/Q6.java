@@ -24,7 +24,6 @@
 // }
 
 import java.util.Arrays;
-
 public class Q6 {
     public int[] arr(int[] nums, int target) {
         int n = nums.length;
