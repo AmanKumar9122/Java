@@ -9,4 +9,8 @@ Q6. https://leetcode.com/problems/non-overlapping-intervals/description/
 
 Day - 2
 Q7. https://cses.fi/problemset/task/1637
+Q8. https://www.hackerrank.com/challenges/greedy-florist/problem
+Q9. https://www.hackerrank.com/challenges/interval-selection/problem
+Q10. https://cses.fi/problemset/task/1090/
+Q11. https://leetcode.com/problems/merge-intervals/
 
