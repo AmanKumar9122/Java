@@ -7,4 +7,6 @@ Q4. https://codeforces.com/problemset/problem/381/A
 Q5. https://cses.fi/alon/task/1629
 Q6. https://leetcode.com/problems/non-overlapping-intervals/description/
 
+Day - 2
+Q7. https://cses.fi/problemset/task/1637
 
