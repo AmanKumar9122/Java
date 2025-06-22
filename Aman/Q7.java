@@ -8,23 +8,21 @@ public class Q7 {
             int digitCount = 0;
             int temp = n;
             
-            // Count digits using a temporary variable
             while(temp > 0){
                 digitCount++;
                 temp /= 10;
             }
             
             int arr[] = new int[digitCount];
-            temp = originalN; // Reset temp to original value
+            temp = originalN;
             
-            // Extract digits using the temporary variable
             for(int i = 0; i < digitCount; i++){
                 arr[i] = temp % 10;
                 temp /= 10;
             }
             
             Arrays.sort(arr);
-            n = originalN - arr[arr.length - 1]; // Subtract the largest digit
+            n = originalN - arr[arr.length - 1];
             count++;
         }
         return count;
