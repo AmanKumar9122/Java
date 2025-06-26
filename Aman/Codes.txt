@@ -24,4 +24,5 @@ Q14. https://codeforces.com/problemset/problem/977/F
 Day - 4 (26/06/2025)
 
 Q15. Graph Implementation using  adj list and adj matrix.
-Q16. BFS Traversal
+Q16. https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1
+Q17. https://neetcode.io/problems/count-connected-components
