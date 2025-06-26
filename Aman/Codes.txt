@@ -1,4 +1,4 @@
-Day - 1
+Day - 1 (21/06/2025)
 
 Q1. https://www.hackerrank.com/challenges/candies/problem?isFullScreen=true
 Q2. https://leetcode.com/problems/earliest-possible-day-of-full-bloom/
@@ -7,7 +7,7 @@ Q4. https://codeforces.com/problemset/problem/381/A
 Q5. https://cses.fi/alon/task/1629
 Q6. https://leetcode.com/problems/non-overlapping-intervals/description/
 
-Day - 2
+Day - 2 (22/06/2025)
 
 Q7. https://cses.fi/problemset/task/1637
 Q8. https://www.hackerrank.com/challenges/greedy-florist/problem
@@ -15,12 +15,13 @@ Q9. https://www.hackerrank.com/challenges/interval-selection/problem
 Q10. https://cses.fi/problemset/task/1090/
 Q11. https://leetcode.com/problems/merge-intervals/
 
-Day - 3
+Day - 3 (23/06/2025)
 
 Q12. Beautiful Function
 Q13. https://codeforces.com/problemset/problem/189/A
 Q14. https://codeforces.com/problemset/problem/977/F
 
-Day - 4 
+Day - 4 (26/06/2025)
 
 Q15. Graph Implementation using  adj list and adj matrix.
+Q16. BFS Traversal
