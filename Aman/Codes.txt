@@ -27,4 +27,5 @@ Q15. Graph Implementation using  adj list and adj matrix.
 Q16. BFS Implementation on 2D Array / List<List>
 Q17. https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1
 Q18. https://neetcode.io/problems/count-connected-components
+Q19. https://leetcode.com/problems/number-of-islands/
 
