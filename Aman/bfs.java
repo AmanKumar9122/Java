@@ -92,51 +92,9 @@ import java.util.*;
 //     }
 // }
 
-// no of island 
-class Solution {
-    public int numIslands(char[][] grid) {
-        if (grid == null || grid.length == 0 || grid[0].length == 0) {
-            return 0;
-        }
-
-        int rows = grid.length;
-        int cols = grid[0].length;
-        boolean[][] visited = new boolean[rows][cols];
-        int islandCount = 0;
-
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
-                if (grid[i][j] == '1' && !visited[i][j]) {
-                    bfs(grid, visited, i, j);
-                    islandCount++;
-                }
-            }
-        }
-
-        return islandCount;
+// rotten oranges problem
+class  {
+    public int orangesRotting(int[][] grid) {
+        
     }
-    public void bfs(char[][] grid, boolean[][] visited, int startRow, int startCol) {
-        int rows = grid.length;
-        int cols = grid[0].length;
-        Queue<int[]> queue = new LinkedList<>();
-        queue.add(new int[]{startRow, startCol});
-        visited[startRow][startCol] = true;
-
-        int[][] directions = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
-
-        while (!queue.isEmpty()) {
-            int[] cell = queue.poll();
-            for (int[] dir : directions) {
-                int newRow = cell[0] + dir[0];
-                int newCol = cell[1] + dir[1];
-
-                if (newRow >= 0 && newRow < rows && newCol >= 0 && newCol < cols && 
-                    grid[newRow][newCol] == '1' && !visited[newRow][newCol]) {
-                    visited[newRow][newCol] = true;
-                    queue.add(new int[]{newRow, newCol});
-                }
-            }
-        }
-    }
-
 }
