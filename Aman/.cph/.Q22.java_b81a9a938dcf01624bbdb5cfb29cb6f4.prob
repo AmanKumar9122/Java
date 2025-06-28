@@ -1,0 +1,1 @@
+{"name":"Local: Q22","url":"d:\\coding\\Java\\Aman\\Q22.java","tests":[{"id":1751004991808,"input":"2\n2\nAE\nEE","output":"2"},{"id":1751005006012,"input":"3\n2\nAE\n*E\nEE","output":"4"},{"id":1751005062590,"input":"3\n2\nAE\n**\nEE","output":"-1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\coding\\Java\\Aman\\Q22.java","group":"local","local":true}

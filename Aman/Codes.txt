@@ -30,4 +30,18 @@ Q18. https://neetcode.io/problems/count-connected-components
 Q19. https://leetcode.com/problems/number-of-islands/
 Q20. https://www.geeksforgeeks.org/problems/number-of-distinct-islands/1
 Q21. https://leetcode.com/problems/rotting-oranges/description/
+Q22. Q5 of hackWithInfy practice 
 
+Day - 5 (27/06/2025)
+
+Q23. https://www.geeksforgeeks.org/problems/topological-sort/1
+Q24. https://leetcode.com/problems/course-schedule/
+Q25. https://leetcode.com/problems/course-schedule-ii/
+Q26. https://cses.fi/problemset/task/1681
+Q27. https://cses.fi/problemset/task/1680
+Q28. https://leetcode.com/problems/parallel-courses-iii/description/ 
+
+Day - 6 (28/06/2025)
+
+Q29. https://www.geeksforgeeks.org/problems/disjoint-set-union-find/1
+Q30. https://www.geeksforgeeks.org/problems/union-find/1
