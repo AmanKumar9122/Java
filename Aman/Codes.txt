@@ -49,3 +49,5 @@ Q30. https://www.geeksforgeeks.org/problems/union-find/1
 Day - 7 (30/06/2025)
 
 Q31. https://leetcode.com/problems/find-if-path-exists-in-graph/
+// We don't use DSU in unidirectional Graph
+Q32. https://neetcode.io/problems/valid-tree
