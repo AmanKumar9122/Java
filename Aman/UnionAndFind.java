@@ -18,8 +18,8 @@ public class UnionAndFind {
             } else if (rank[rootX] < rank[rootY]) {
                 parent[rootX] = rootY;
             } else {
-                parent[rootY] = rootX;
-                rank[rootX]++;
+                parent[rootX] = rootY;
+                rank[rootY]++;
             }
         }
         return true; // x and y were successfully unioned
