@@ -50,4 +50,9 @@ Day - 7 (30/06/2025)
 
 Q31. https://leetcode.com/problems/find-if-path-exists-in-graph/
 // We don't use DSU in unidirectional Graph
+
 Q32. https://neetcode.io/problems/valid-tree
+Q33. https://leetcode.com/problems/redundant-connection/
+Q34. https://cses.fi/alon/task/1666
+Q35. 
+Q36. https://cses.fi/problemset/task/1675
