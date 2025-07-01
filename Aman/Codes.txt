@@ -56,3 +56,7 @@ Q33. https://leetcode.com/problems/redundant-connection/
 Q34. https://cses.fi/alon/task/1666
 Q35. 
 Q36. https://cses.fi/problemset/task/1675
+
+Day - 8 (01/08/2025)
+
+Q37. Q7 medium hackWithInfy
