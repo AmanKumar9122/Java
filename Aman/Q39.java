@@ -48,9 +48,22 @@ class Solution {
             }
         }
         
-        return (int) ways[n - 1];
-
-        
+        return (int) ways[n - 1];  
+    }
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        int n = 7;
+        int[][] roads = {
+            {0, 1, 2},
+            {0, 2, 4},
+            {1, 3, 2},
+            {1, 4, 3},
+            {2, 4, 1},
+            {3, 5, 1},
+            {4, 5, 2},
+            {5, 6, 3}
+        };
+        System.out.println(solution.countPaths(n, roads)); // Output: number of ways to reach destination
     }
 }
 

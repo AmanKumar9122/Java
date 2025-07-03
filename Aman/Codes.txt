@@ -65,3 +65,10 @@ Q38. Dijkstra Algorithm Implementation
 Day - 9 (02/07/2025)
 
 Q39. https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/
+
+Day - 10 (03/07/2025)
+
+Q40. https://leetcode.com/problems/range-sum-query-2d-immutable/description
+Q41. https://cses.fi/problemset/result/13554756/
+Q42. https://leetcode.com/problems/range-sum-query-immutable/description
+Q43. https://www.hackerrank.com/challenges/crush/problem
