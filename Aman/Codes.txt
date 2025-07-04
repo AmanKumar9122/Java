@@ -80,3 +80,8 @@ Q46. https://cses.fi/problemset/task/1662
 Day - 11 (04/07/2025)
 
 Q47. Implementation of Segment Tree
+Q48. https://cses.fi/alon/task/1648
+Q49. https://codeforces.com/problemset/problem/339/D
+
+Q50. https://www.geeksforgeeks.org/problems/range-min-max-queries4557/1
+Q51. https://www.geeksforgeeks.org/problems/range-gcd-queries3654/1
