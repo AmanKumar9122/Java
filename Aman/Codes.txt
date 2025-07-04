@@ -77,3 +77,6 @@ Q44. https://cses.fi/problemset/task/1660
 Q45. https://cses.fi/problemset/task/1661
 Q46. https://cses.fi/problemset/task/1662
 
+Day - 11 (04/07/2025)
+
+Q47. Implementation of Segment Tree
