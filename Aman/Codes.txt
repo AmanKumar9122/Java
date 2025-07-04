@@ -72,3 +72,8 @@ Q40. https://leetcode.com/problems/range-sum-query-2d-immutable/description
 Q41. https://cses.fi/problemset/result/13554756/
 Q42. https://leetcode.com/problems/range-sum-query-immutable/description
 Q43. https://www.hackerrank.com/challenges/crush/problem
+
+Q44. https://cses.fi/problemset/task/1660
+Q45. https://cses.fi/problemset/task/1661
+Q46. https://cses.fi/problemset/task/1662
+
